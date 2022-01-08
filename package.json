@@ -1,0 +1,22 @@
+{
+  "name": "anomaly-detector",
+  "version": "1.0.0",
+  "description": "anomaly detector",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abinash phulkonwar",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@azure/ai-anomaly-detector": "^3.0.0-beta.3",
+    "@azure/core-auth": "^1.3.2",
+    "csv-parse": "^5.0.4"
+  }
+}
